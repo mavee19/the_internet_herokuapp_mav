@@ -1,10 +1,7 @@
 import inspect
 import logging
-
-from selenium.webdriver import ActionChains
 from selenium.webdriver.support import expected_conditions as ec
 import pytest
-from selenium.webdriver.support.wait import WebDriverWait
 
 
 @pytest.mark.usefixtures("setup")
